@@ -243,7 +243,7 @@ html{
     max-width: 960px;
 }
 h4 {
-    color: #14ff5b;
+    color: #14ff5b!important;
 }
 h2 {  
     padding: 25px 0;  
