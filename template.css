@@ -63,7 +63,7 @@ html{
     width: 30%;
     text-align: right;
     padding: 0 23px;
-    display: hidden;
+    display: none;
 }
 
 #search{
