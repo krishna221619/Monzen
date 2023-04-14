@@ -246,7 +246,7 @@ html{
 h2 {  
     padding: 25px 0;  
     text-align: center;  
-    color: #fff;  
+    color: #08ff19;  
     background: #000000;  
     }  
     footer {  
@@ -255,7 +255,7 @@ h2 {
       margin-top:100px;  
     }  
     footer a {  
-      color: #fff;  
+      color: #2808f6;  
       font-size: 14px;  
       transition-duration: 0.2s;  
     }  
