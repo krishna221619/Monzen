@@ -22,7 +22,7 @@ html{
     align-items: center;
 }
 .logo img{
-    width: 26%;
+    width: 100%;
     border: 3px solid white;
     border-radius: 50px;
     margin: 5px;
