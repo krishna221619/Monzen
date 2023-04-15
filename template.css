@@ -1,243 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-body{
-    margin: 0;
-     padding: 0;
-     font-family: 'Roboto', sans-serif;
-     background-color: #CBE8CD;
-}
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-*{
-    margin: 0;
-    padding:0;
-    text-decoration: none;
-}
-
-html{
-    scroll-behavior: smooth;
-}
-.logo{
-    width:20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.logo img{
-    width: 40%;
-    border: 3px solid white;
-    border-radius: 50px;
-    margin: 5px;
-}
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: sticky;
-    top:0;
-    cursor: pointer;
-    
-}
-
-.nav-list{
-    width: 70%; 
-    display: flex; 
-    align-items: center;
-    text-align: center;
-}
-
-.nav-list li{
-    list-style: none;
-    padding: 26px 30px;
-}
-
-.nav-list li a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.nav-list li a:hover{ 
-    color: rgb(197, 194, 194);
-}
-
-.rightNav{ 
-    width: 30%;
-    text-align: right;
-    padding: 0 23px;
-    display: none;
-}
-
-#search{
-    padding: 5px;
-    font-size: 17px;
-    border: 2px solid grey;
-    border-radius: 9px;
-}
-
-.background{
-    background: rgba(0, 0, 0, 0.7) url('../img/background.jpg');
-    background-size: cover;
-    background-blend-mode: darken;
-}
-
-.firstSection{
-    height: 100vh;
-}
-
-.box-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 50%;
-    margin: auto;
-        height: 80%;
-}
-
-.firstHalf{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.secondHalf{
-    width: 30%;
-}
-
-.secondHalf img{
-    width: 70%; 
-    border: 4px solid white;
-    border-radius: 150px;
-    display: block;
-    margin: auto;
-}
-
-.text-big{
-    font-size: 41px;
-}
-
-.text-small{
-    font-size: 18px;
-}
-
-.btn{
-    padding: 8px 20px;
-    margin: 17px 13px;
-    border: 2px solid white;
-    border-radius: 8px; 
-    background: none;
-    color: white;
-    cursor: pointer;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
-    text-decoration: none;
-    
-}
-
-.btn a{
-    color: inherit;
-}
-
-.btn-sm{
-    padding: 6px 10px;
-    vertical-align: middle;
-    font-size: 16px;
-}
-
-.btn-dark{
-    color: black;
-        border: 2px solid grey;
-
-}
-.section{ 
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    max-width: 80%;
-    margin: auto;
-    font-family: 'Ubuntu', sans-serif;
-    padding: 10px;
-}
-
-.section-left{
-    flex-direction: row-reverse;
-}
-
-.paras{
-    padding: 0px 65px;
-}
-
-.sectionTag{
-    padding: 16px 0;
-}
-
-.sectionSubTag{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.thumbnail img{
-    width: 250px;
-    border: 2px solid black;
-    border-radius: 26px;
-    margin-top: 19px;
-}
-
-.contact{
-    background-color: #f6f5f4;
-    height: 833px;
-}
-.text-center{
-
-    text-align: center;
-    padding-top: 10px;
-   font-family: 'Ubuntu', sans-serif;
-       font-size: 10px;
-       color: #ffffff;
-}
-
-.form{
-    max-width: 62%;
-    margin: 25px auto;
-}
-
-.form-input{
-    margin: 14px 0;
-    padding: 5px 13px;
-    width: 100%; 
-    font-size: 19px;
-    border: 2px solid grey;
-    border-radius: 6px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.text-footer{
-    text-align: center;
-    padding: 30px 0;
-   font-family: 'Ubuntu', sans-serif; 
-   display: flex;
-   justify-content: center;
-   color: white;
-   
-}
-
-.burger{
-    display: none;
-    position: absolute;
-    cursor: pointer;
-    right: 5%;
-    top:15px;
-}
-.line{
-    width: 33px;
-    background-color: white;
-    height: 4px;
-    margin: 5px 3px;
-}
- /* main page */
- main {
-  padding-top: 20px; /* adjust this value to match your navbar height */
-}
 
 
 .container{
@@ -247,121 +7,121 @@ html{
 h4 {
     color: #14ff5b!important;
 }
-h2 {  
-    padding: 25px 0;  
-    text-align: center;  
-    color: #08ff19;  
-    background: #000000;  
-    }  
-    footer {  
-     background: rgb(0, 0, 0);  
-      color: rgb(255, 251, 251);  
-      margin-top:100px;  
-    }  
-    footer a {  
-      color: #2808f6;  
-      font-size: 14px;  
-      transition-duration: 0.2s;  
-    }  
-    footer a:hover {  
-      color: #FA944B;  
-      text-decoration: none;  
-    }  
-    .copy {  
-      font-size: 12px;  
-      padding: 10px;  
-      border-top: 1px solid #FFFFFF;  
-    }  
-    .footer-middle {  
-      padding-top: 2em;  
-      color: rgb(255, 255, 255);  
-    }  
-    ul.social-network {  
-      list-style: none;  
-      display: inline;  
-      margin-left: 0 !important;  
-      padding: 0;  
-    }  
-    ul.social-network li {  
-      display: inline;  
-      margin: 0 5px;  
-    }  
-      
-    .social-network a.icoFacebook:hover {  
-      background-color: #3B5998;  
-    }  
-    .social-network a.icoLinkedin:hover {  
-      background-color: #007bb7;  
-    }  
-    .social-network a.icoFacebook:hover i  
-    {  
-      color: #fff;  
-    }  
-    .social-network a.icoLinkedin:hover i {  
-      color: #fff;  
-    }  
-    .social-network a.socialIcon:hover {  
-      color: #44BCDD;  
-    }  
-    .socialHoverClass {  
-      color: #44BCDD;  
-    }  
-    .social-circle li a {  
-      display: inline-block;  
-      position: relative;  
-      margin: 0 auto 0 auto;  
-      -moz-border-radius: 50%;  
-      -webkit-border-radius: 50%;  
-      border-radius: 50%;  
-      text-align: center;  
-      width: 30px;  
-      height: 30px;  
-      font-size: 15px;  
-    }  
-    .social-circle li i {  
-      margin: 0;  
-      line-height: 30px;  
-      text-align: center;  
-    }  
-    .social-circle li a:hover i  
-    {  
-      -moz-transform: rotate(360deg);  
-      -webkit-transform: rotate(360deg);  
-      -ms--transform: rotate(360deg);  
-      transform: rotate(360deg);  
-      -webkit-transition: all 0.2s;  
-      -moz-transition: all 0.2s;  
-      -o-transition: all 0.2s;  
-      -ms-transition: all 0.2s;  
-      transition: all 0.2s;  
-    }  
-    .triggeredHover {  
-      -moz-transform: rotate(360deg);  
-      -webkit-transform: rotate(360deg);  
-      -ms--transform: rotate(360deg);  
-      transform: rotate(360deg);  
-      -webkit-transition: all 0.2s;  
-      -moz-transition: all 0.2s;  
-      -o-transition: all 0.2s;  
-      -ms-transition: all 0.2s;  
-      transition: all 0.2s;  
-    }  
-    .social-circle i {  
-      color: #595959;  
-      -webkit-transition: all 0.8s;  
-      -moz-transition: all 0.8s;  
-      -o-transition: all 0.8s;  
-      -ms-transition: all 0.8s;  
-      transition: all 0.8s;  
-    }  
-    .social-network a {  
-      background-color: #F9F9F9;  
-    }  
-    .social-network a:hover {  
-    background: #ff304d;  
-    } 
+h2 {
+    padding: 25px 0;
+    text-align: center;
+    color: #08ff19;
+    background: #000000;
+    }
+    footer {
+     background: rgb(0, 0, 0);
+      color: rgb(255, 251, 251);
+      margin-top:100px;
+    }
+    footer a {
+      color: #2808f6;
+      font-size: 14px;
+      transition-duration: 0.2s;
+    }
+    footer a:hover {
+      color: #FA944B;
+      text-decoration: none;
+    }
+    .copy {
+      font-size: 12px;
+      padding: 10px;
+      border-top: 1px solid #FFFFFF;
+    }
+    .footer-middle {
+      padding-top: 2em;
+      color: rgb(255, 255, 255);
+    }
+    ul.social-network {
+      list-style: none;
+      display: inline;
+      margin-left: 0 !important;
+      padding: 0;
+    }
+    ul.social-network li {
+      display: inline;
+      margin: 0 5px;
+    }
 
-  
+    .social-network a.icoFacebook:hover {
+      background-color: #3B5998;
+    }
+    .social-network a.icoLinkedin:hover {
+      background-color: #007bb7;
+    }
+    .social-network a.icoFacebook:hover i
+    {
+      color: #fff;
+    }
+    .social-network a.icoLinkedin:hover i {
+      color: #fff;
+    }
+    .social-network a.socialIcon:hover {
+      color: #44BCDD;
+    }
+    .socialHoverClass {
+      color: #44BCDD;
+    }
+    .social-circle li a {
+      display: inline-block;
+      position: relative;
+      margin: 0 auto 0 auto;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      text-align: center;
+      width: 30px;
+      height: 30px;
+      font-size: 15px;
+    }
+    .social-circle li i {
+      margin: 0;
+      line-height: 30px;
+      text-align: center;
+    }
+    .social-circle li a:hover i
+    {
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -ms--transform: rotate(360deg);
+      transform: rotate(360deg);
+      -webkit-transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      -ms-transition: all 0.2s;
+      transition: all 0.2s;
+    }
+    .triggeredHover {
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -ms--transform: rotate(360deg);
+      transform: rotate(360deg);
+      -webkit-transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      -ms-transition: all 0.2s;
+      transition: all 0.2s;
+    }
+    .social-circle i {
+      color: #595959;
+      -webkit-transition: all 0.8s;
+      -moz-transition: all 0.8s;
+      -o-transition: all 0.8s;
+      -ms-transition: all 0.8s;
+      transition: all 0.8s;
+    }
+    .social-network a {
+      background-color: #F9F9F9;
+    }
+    .social-network a:hover {
+    background: #ff304d;
+    }
+
+
 
 @media only screen and (max-width: 1140px){
     .nav-list{
