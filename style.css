@@ -473,11 +473,288 @@ footer p {
 
 /*===========================GreenMoment Page===================================================================================================*/
 #green_moment {
-background-color: #4d4855;
-background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
-height:100vh;
+    background-color: #4d4855;
+    background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+    height: 100vh;
 }
 
-#science{
+#science {
     height: 100vh;
+}
+
+/* =========================family Page========================================================================================================== */
+.familyheading {
+    text-align: center;
+    color: #07ad30;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 50px;
+
+}
+
+.headingleaf {
+    width: 70px;
+    margin-left: 50px;
+}
+
+.bggreen {
+    position: absolute;
+    background-color: #07ad30;
+    height: 25vh;
+    width: 100%;
+    margin-top: 200px;
+    z-index: -9999;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    width: 90%;
+    height: 100%;
+    justify-content: center;/* Align team cards horizontally */
+    margin: 200px 0px 200px 5vw;
+    gap: 20px;
+
+}
+
+.teamcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(50% - 20px); /* Adjust the width of team cards based on screen size */
+    padding: 20px;   /* Add padding around team cards */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 500px;
+    margin-bottom: 50px;
+    justify-content: center;    /* Adjust the vertical spacing between card elements */
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid black;
+    flex-shrink: 0;
+    margin: 20px;
+
+}
+
+.teamdetail {
+    margin-top: 10px;
+    /* Add some spacing between profile image and details */
+}
+
+.teamdetail h2 {
+    font-size: 24px;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+    margin-bottom: 5px;
+    /* Add some spacing below the name */
+}
+
+.teamdetail text {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    font-size: 18px;
+    /* Adjust the font size as needed */
+
+}
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+.teamdetail p {
+    font-size: 20px;
+    margin-top: 10px;
+    /* Add some spacing between tagline and content */
+
+}
+
+.icon-link {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.instagram {
+    background-image: url('resources/instagram-color.svg');
+
+}
+
+.twitter {
+    background-image: url('resources/twitter-color.svg');
+}
+
+.linkedin {
+    background-image: url('resources/linkedin-color.svg');
+}
+
+.facebook {
+    background-image: url('resources/facebook-color.svg');
+}
+
+.github {
+    background-image: url('resources/github.svg');
+}
+
+.interncontainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 150px;
+    justify-content: center;
+    gap: 20px;
+    /* Add some spacing between intern cards */
+}
+
+.intern {
+    min-height: 500px;
+    box-shadow: 5px 10px 10px 10px rgb(204, 207, 208);
+    margin-bottom: 50px;
+    align-items: center;
+    border-radius: 20px;
+    width: calc(25% - 50px);
+    /* Adjust the width of intern cards based on screen size */
+    padding: 20px;
+    /* Add padding around intern cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Adjust the vertical spacing between card elements */
+    text-align: center;
+}
+
+
+.intern h2 {
+    margin-top: 50px;
+    word-wrap: break-word;
+    /* Add this property to prevent text overflow */
+}
+
+.internprofile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid black;
+    flex-shrink: 0;
+    margin: 20px;
+}
+
+.intern p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.intern text {
+    margin: 20px;
+    font-size: 16px;
+}
+
+.internsocial-icons {
+    margin: 20px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+
+/* family page responsive */
+@media (max-width: 1200px) {
+    .familyheading {
+        font-size: 25px;
+        margin-left: 55px;
+
+    }
+
+    .headingleaf {
+        width: 25px;
+        margin-left: 10px;
+
+    }
+
+    .team {
+        width: 95%;
+        margin: 0 2.5%;
+        
+    }
+
+    .teamcard {
+        width: 100%;
+        padding: 40px 20px;
+        flex-direction: column;
+        
+      
+    }
+
+    .teamcard .profile {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .teamcard .teamdetail {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    .teamcard .teamdetail h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+
+    }
+
+    .teamcard .teamdetail text {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .teamcard .teamdetail p {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .interncontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intern {
+        width: 90%;
+        margin: 40px 0;
+    }
+
+    .intern .internprofile {
+        width: 30vw;
+        height: 30vw;
+        margin: 30px 110px;
+
+    }
+
+    .intern h2 {
+        margin: 20px 80px;
+    }
+
+    .intern p {
+        margin: 40px 10px;
+        font-size: 20px;
+    }
+
+    .intern text {
+        margin: 40px 0px;
+        font-size: 20px;
+
+
+    }
+
+    .internsocial-icons {
+        display: flex;
+        margin: 40px;
+    }
 }
